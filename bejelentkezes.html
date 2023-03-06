@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejelentkezés - Galvácsi Zsiványok</title>
+    <link rel="stylesheet" href="bejelentkezes.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="fooldal.html">Galvácsi Zsiványok</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="fooldal.html">Főoldal</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="termekek.html">Termékek<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="aeg.html">AEG-ek</a></li>
+                <li><a href="gbb.html">GBB fegyverek</a></li>
+                <li><a href="felszereles.html">Felszerelés</a></li>
+              </ul>
+            </li>
+            <li><a href="elerhetoseg.html">Elérhetőségeink</a></li>
+            <li><a href="rolunk.html">Rólunk</a></li>
+            <li><a id="reg" href="regisztracio.html">Regisztrálás</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <h1 class="szin">Bejelentkezés</h1>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="/pfp" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Felhasználónév</b></label>
+    <input type="text" placeholder="Felhasználónév" name="uname" required>
+
+    <label for="psw"><b>Jelszó</b></label>
+    <input type="password" placeholder="Jelszó" name="psw" required>
+        <form action="">
+    <button type="submit" onclick="alert('Sikeresen bejelentkezett!')" ><a class="bszin" href="fooldal.html">Bejelentkezés</a></button>
+  </form>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> <b>Emlékezz rám</b>
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <form>
+        <input id="cancelbtn" type="button" value="Mégse" onclick="history.back()">
+    </form>
+    <span class="psw">Elfelejtetted a <a href="#">jelszavad?</a></span>
+  </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+p{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-size: large;
+    color: antiquewhite;
+    margin-right: 650px;
+    margin-top: 100px;
+}
+
+span{
+    font-weight: bold;
+}
+
+body{
+    background-image: url(elerhetoseghatter.jpg);
+    background-size: 150%;
+}
+
+.lila{
+    color: purple;
+}
+
+.icon{
+    width: 60px;
+}
+
+#logo{
+    width: 70px;
+    margin-right: 25px;
+}

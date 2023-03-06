@@ -1,0 +1,71 @@
+body{
+    background-image: url('hatterr.jpg');
+}
+  
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+#reg{
+    text-align: right;
+}
+
+div.ak {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  float: left;
+  margin-left: 300px;   
+}
+
+div.ak:hover {
+  border: 1px solid #777;
+}
+
+div.ak img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+div.ar15 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+div.ar15:hover {
+  border: 1px solid #777;
+}
+
+div.ar15 img {
+  width: 100%;
+  height: auto;
+}
+
+div.arcx {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    float: right;
+    margin-right: 300px;
+    margin-top: -215px;
+  }
+  
+  div.arcx:hover {
+    border: 1px solid #777;
+  }
+  
+  div.arcx img {
+    width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="regisztracio.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Regisztráció - Galvácsi Zsiványok</title>
+  <link rel="stylesheet" href="regisztracio.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="fooldal.html">Galvácsi Zsiványok</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="fooldal.html">Főoldal</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Termékek<span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="aeg.html">AEG-ek</a></li>
+            <li><a href="gbb.html">GBB fegyverek</a></li>
+            <li><a href="felszereles.html">Felszerelés</a></li>
+          </ul>
+        </li>
+        <li><a href="elerhetoseg.html">Elérhetőségeink</a></li>
+        <li><a href="rolunk.html">Rólunk</a></li>
+        <li><a id="register" href="regisztracio.html">Regisztráció</a></li>
+      </ul>
+    </div>
+  </nav>
+  <form action="/action_page.php">
+    <div class="container">
+      <h1>Regisztráció</h1>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Email cím" name="email" id="email" required>
+
+      <label for="psw"><b>Jelszó</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+      <label for="psw-repeat"><b>Jelszó Megerősítése</b></label>
+      <input type="password" placeholder="Jelszó Megerősítése" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+      <div class="checkbox">
+        <label><input type="checkbox" name="remember" required>Elolvastam és elfogadom az <a href="#">Adatvédelmi tájékoztatót</a>.</label>
+      </div>
+      <button type="submit" onclick="alert('Köszönjük a regisztrációt!')" class="registerbtn"><a class="szin" href="fooldal.html">Regisztráció</button>
+    </div>
+
+    <div class="container signin">
+      <p class="fiok">Már van fiókja?</p><a href="bejelentkezes.html"> Bejelentkezés</a>.
+    </div>
+  </form>
+</body>
+</html>
